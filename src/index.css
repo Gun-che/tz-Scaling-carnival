@@ -178,3 +178,20 @@ button {
 button:hover {
   background-color: #c68cd1;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  margin: auto;
+  max-width: 900px;
+  gap: 10px;
+}
+.wrap {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.wrap img {
+  min-width: 100%;
+  min-height: 100%;
+}
