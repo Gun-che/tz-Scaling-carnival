@@ -9,6 +9,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -185,13 +192,105 @@ button:hover {
   margin: auto;
   max-width: 900px;
   gap: 10px;
+  text-align: left;
 }
 .wrap {
   width: 200px;
   height: 200px;
   overflow: hidden;
+  border-radius: 4px;
 }
 .wrap img {
   min-width: 100%;
   min-height: 100%;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal {
+  display: flex;
+  bottom: auto;
+  right: auto;
+  position: absolute;
+  top: 40px;
+  height: 90vh;
+  width: auto;
+  left: calc(50% - 20px);
+  bottom: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  img {
+    margin: auto;
+    height: 100%;
+    border-radius: 4px;
+  }
+  button {
+    padding: 0 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba($color: black, $alpha: 0.4);
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+body {
+  color: #664f66;
+}
+.btn-block {
+  h2 {
+    margin: 50px 0 20px;
+    font-weight: 700;
+    font-size: 110%;
+  }
+  button {
+    padding: 0 20px;
+  }
+}
+
+.photos-info {
+  padding: 35px 0;
+  text-align: left;
+  margin: auto;
+  max-width: 850px;
+}
+
+.like-count {
+  padding: 7px;
+  font-weight: 700;
+  font-size: 80%;
+  color: #664f66;
+  svg {
+    margin-left: 7px;
+  }
+  path {
+    fill: #664f66;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PageContainer from '../containers/PageContainer';
 import UserContainer from '../containers/UserContainer';
-import './App.css';
+import './App.scss';
 
 
 class App extends Component {
@@ -10,8 +10,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Мой топ фото</h1>
+          <UserContainer />
         </header>
-        <UserContainer />
         <PageContainer />
       </div>
     );
