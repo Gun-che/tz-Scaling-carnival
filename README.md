@@ -1,7 +1,9 @@
-МОЙ ТОП ФОТО
+# МОЙ ТОП ФОТО
 
-redux, react-redux test project
+## redux, react-redux test project
 
-Работа с API vk.com 
+## [DEMO](https://gun-che.github.io/tz-Scaling-carnival/)
 
-задание по учебнику [Максима Пацианского](https://max-frontend.gitbook.io/redux-course-ru-v2/)
+### Работа с API vk.com 
+
+### задание по учебнику [Максима Пацианского](https://max-frontend.gitbook.io/redux-course-ru-v2/)
