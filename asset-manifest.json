@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tz-Scaling-carnival/static/css/main.15b46ba8.chunk.css",
-    "main.js": "/tz-Scaling-carnival/static/js/main.096c4e5d.chunk.js",
-    "main.js.map": "/tz-Scaling-carnival/static/js/main.096c4e5d.chunk.js.map",
+    "main.js": "/tz-Scaling-carnival/static/js/main.642a4658.chunk.js",
+    "main.js.map": "/tz-Scaling-carnival/static/js/main.642a4658.chunk.js.map",
     "runtime-main.js": "/tz-Scaling-carnival/static/js/runtime-main.3df0be7a.js",
     "runtime-main.js.map": "/tz-Scaling-carnival/static/js/runtime-main.3df0be7a.js.map",
     "static/js/2.3375c25b.chunk.js": "/tz-Scaling-carnival/static/js/2.3375c25b.chunk.js",
     "static/js/2.3375c25b.chunk.js.map": "/tz-Scaling-carnival/static/js/2.3375c25b.chunk.js.map",
     "index.html": "/tz-Scaling-carnival/index.html",
-    "precache-manifest.faded56fce8270c7662eae11cb94ee2f.js": "/tz-Scaling-carnival/precache-manifest.faded56fce8270c7662eae11cb94ee2f.js",
+    "precache-manifest.46ce4bdb05b3cdb966e9879f9a663e00.js": "/tz-Scaling-carnival/precache-manifest.46ce4bdb05b3cdb966e9879f9a663e00.js",
     "service-worker.js": "/tz-Scaling-carnival/service-worker.js",
     "static/css/main.15b46ba8.chunk.css.map": "/tz-Scaling-carnival/static/css/main.15b46ba8.chunk.css.map",
     "static/js/2.3375c25b.chunk.js.LICENSE.txt": "/tz-Scaling-carnival/static/js/2.3375c25b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3df0be7a.js",
     "static/js/2.3375c25b.chunk.js",
     "static/css/main.15b46ba8.chunk.css",
-    "static/js/main.096c4e5d.chunk.js"
+    "static/js/main.642a4658.chunk.js"
   ]
 }
