@@ -199,10 +199,14 @@ button:hover {
   height: 200px;
   overflow: hidden;
   border-radius: 4px;
+  cursor: pointer;
 }
 .wrap img {
   min-width: 100%;
   min-height: 100%;
+  &:hover {
+    filter: brightness(-0.3);
+  }
 }
 
 .ReactModal__Overlay {
