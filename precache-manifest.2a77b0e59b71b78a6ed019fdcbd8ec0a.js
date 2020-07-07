@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3af7647f640beb9025fcc8b4cc530958",
+    "revision": "7f0970640a7a9ead72999a39675db1d4",
     "url": "/tz-Scaling-carnival/index.html"
   },
   {
-    "revision": "7ae441c65c7a0117a610",
-    "url": "/tz-Scaling-carnival/static/css/main.15b46ba8.chunk.css"
+    "revision": "c0c5c98442f41b684629",
+    "url": "/tz-Scaling-carnival/static/css/main.671b39e6.chunk.css"
   },
   {
     "revision": "e3d090e78920ea2e262b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tz-Scaling-carnival/static/js/2.3375c25b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ae441c65c7a0117a610",
+    "revision": "c0c5c98442f41b684629",
     "url": "/tz-Scaling-carnival/static/js/main.642a4658.chunk.js"
   },
   {

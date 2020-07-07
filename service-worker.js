@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tz-Scaling-carnival/precache-manifest.46ce4bdb05b3cdb966e9879f9a663e00.js"
+  "/tz-Scaling-carnival/precache-manifest.2a77b0e59b71b78a6ed019fdcbd8ec0a.js"
 );
 
 self.addEventListener('message', (event) => {
